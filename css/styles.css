@@ -10,6 +10,7 @@
   --background-page-color: #f5f4fa;
   --hover-button-cover: #188ce8;
   --border-color: #eeeeee;
+  --picture-color: #afb1b8;
 }
 
 body {
@@ -47,7 +48,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px dashed red; */
+  outline: 2px dashed red;
 }
 
 .list {
@@ -406,6 +407,54 @@ img {
 }
 
 /* ===== end TEAM ===== index.html ===== */
+
+/* ===== CLIENTS ===== index.html ===== */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.clients-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.clients-list-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--picture-color);
+  border-radius: 4px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.client-list-svg {
+  fill: var(--picture-color);
+}
+
+.clients-list-item:hover,
+.clients-list-item:focus {
+  border-color: var(--accent-color);
+}
+
+.client-list-svg:hover,
+.client-list-svg:focus {
+  fill: var(--accent-color);
+}
+
+/* ===== end CLIENTS ===== index.html ===== */
 
 /* ===== HERO ===== portfolio.html ===== */
 

@@ -224,9 +224,14 @@ img {
 /* ===== HERO ===== index.html ===== */
 
 .hero {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/main-cover.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--background-footer-color);
+  background-color: #c4c4c4;
   text-align: center;
 }
 
@@ -293,8 +298,8 @@ img {
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
   margin-bottom: 30px;
   background-color: var(--background-page-color);
@@ -443,8 +448,12 @@ img {
   text-align: center;
 }
 
-.clients-list-item:not(last-child) {
+.clients-list-item {
   margin-right: 30px;
+}
+
+.clients-list-item:nth-child(n + 6) {
+  margin-right: 0;
 }
 
 .clients-list-link {

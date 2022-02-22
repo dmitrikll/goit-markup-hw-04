@@ -205,6 +205,7 @@ img {
 .address {
   font-style: normal;
   margin-top: 20px;
+  margin-right: 70px;
 }
 
 .adress-list-item:not(:last-child) {
@@ -233,6 +234,57 @@ img {
 .address-contact:hover,
 .address-contact:focus {
   color: var(--accent-color);
+}
+
+.footer-side {
+  display: flex;
+}
+
+.footer-social-title {
+  padding-top: 12px;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--active-button-text-color);
+}
+
+.footer-list-network {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+.footer-list-social:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-list-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-list-social-svg {
+  fill: var(--active-button-text-color);
+}
+
+.footer-list-social-link:hover,
+.footer-list-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-list-social-link:hover .footer-list-social-svg,
+.footer-list-social-link:focus .footer-list-social-svg {
+  fill: var(--active-button-text-color);
 }
 
 /* ===== end FOOTER ===== */
@@ -422,6 +474,7 @@ img {
   border-left-width: 1px;
   border-left-style: solid;
   border-left-color: var(--border-color);
+  background-color: var(--active-button-text-color);
 }
 
 .team-list-title {

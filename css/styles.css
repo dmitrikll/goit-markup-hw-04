@@ -87,6 +87,10 @@ img {
   align-items: center;
 }
 
+.header .logo-link {
+  margin-right: 92px;
+}
+
 .header .logo-first {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -100,7 +104,6 @@ img {
 .header .logo-second {
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-right: 92px;
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -142,8 +145,6 @@ img {
   display: flex;
   align-items: center;
   justify-items: center;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -362,13 +363,12 @@ img {
 }
 
 .feature-list-picture {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  text-align: center;
   margin-bottom: 30px;
   background-color: var(--background-page-color);
 }
@@ -560,14 +560,13 @@ img {
 }
 
 .clients-list-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
   border: 1px solid var(--picture-color);
   border-radius: 4px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  text-align: center;
 }
 
 .client-list-svg {
